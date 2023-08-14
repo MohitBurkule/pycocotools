@@ -7,7 +7,7 @@ ext_modules = [
         "rays_pycocotools._mask",
         sources=["../common/maskApi.c", "rays_pycocotools/_mask.pyx"],
         include_dirs=[np.get_include(), "../common"],
-        extra_compile_args=["-Wno-cpp", "-Wno-unused-function", "-std=c99"],
+        #extra_compile_args=["-Wno-cpp", "-Wno-unused-function", "-std=c99"],
     )
 ]
 
